@@ -1,0 +1,27 @@
+{
+  "name": "saved-digest",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "saved-digest": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "dependencies": {
+    "playwright-core": "^1.64.1"
+  },
+  "description": "Collect, transcribe, summarise and group your saved Instagram posts with Claude. Local web app and Claude Code skill.",
+  "license": "MIT",
+  "repository": "github:coxy0/saved-digest",
+  "files": [
+    "src",
+    "scripts",
+    "skills",
+    "ui",
+    "rules.md"
+  ]
+}
